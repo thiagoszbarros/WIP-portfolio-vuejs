@@ -1,11 +1,14 @@
 <template>
     <footer>
-        <h1>This is the footer</h1>
+        <IdentificationComponent />
     </footer>
 </template>
 
 <script>
+import IdentificationComponent from './FooterComponents/IdentificationComponent.vue';
 export default {
-    name: 'FooterComponent',
+    components: {
+        IdentificationComponent,
+    }
 }
 </script>
