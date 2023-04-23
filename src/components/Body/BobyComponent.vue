@@ -1,20 +1,24 @@
 <template>
-    <body>
-        <div>
-            <h1>This is the body component</h1>
-        </div>
-        <div>
-            <InfoComponent />
-        </div>
-    </body>
+    <HomeComponent />
+    <AboutComponent />
+    <ProjectsComponent />
+    <SkillsComponent />
+    <MastermindComponent />
 </template>
 
 <script>
-import InfoComponent from './BodyComponents/InfoComponent.vue';
+import HomeComponent from './BodyComponents/HomeComponent.vue';
+import AboutComponent from './BodyComponents/AboutComponent.vue';
+import ProjectsComponent from './BodyComponents/ProjectsComponent.vue';
+import SkillsComponent from './BodyComponents/SkillsComponent.vue';
+import MastermindComponent from './BodyComponents/MastermindComponent.vue';
 export default {
-    name: 'BobyComponent',
     components: {
-        InfoComponent,
+        HomeComponent,
+        AboutComponent,
+        ProjectsComponent,
+        SkillsComponent,
+        MastermindComponent,
     }
 }
 </script>
